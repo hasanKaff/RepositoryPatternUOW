@@ -15,6 +15,8 @@ namespace RepositoryPatternUOW.Core.Models
         public string Title { get; set; }
 
         public Author Author { get; set; }
+        
+        // Author Id
         public int AuthorId { get; set; }
     }
 }
